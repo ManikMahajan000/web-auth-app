@@ -7,8 +7,7 @@ const AuthForm = () => {
   const [message, setMessage] = useState("");
   const [user, setUser] = useState(null);
 
-  const backendURL = "http://localhost:5000/api/auth"; // change if different
-
+  const backendURL = "https://web-auth-app.onrender.com/api/auth"; 
   // Toggle forms
   const toggleForm = () => {
     setMessage("");
